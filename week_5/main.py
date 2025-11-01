@@ -1,1 +1,1 @@
-fruits = ['apel', '']
+fruits = ['apel']
