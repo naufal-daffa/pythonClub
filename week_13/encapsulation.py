@@ -13,13 +13,14 @@ class BankAccount:
             self.__saldo = jumlah
             print(f'saldo anda : {self.__saldo}')
             
-        
     def deposit(self, jumlah):
         if(jumlah > 0):
             self.__saldo += jumlah
             print(f"Saldo bertambah: {jumlah}, Saldo anda sekarang : {self.saldo}")
         else:
             print('Tidak boleh negatif')
+            
+            
             
     def withdraw(self, jumlah):
         if jumlah > 0 and jumlah <= self.saldo:
